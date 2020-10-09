@@ -1,0 +1,173 @@
+.ui.basic.segment.header-wrapper {
+  background-color: #191919;
+  border-bottom: 1px solid #939393;
+  margin-bottom: 20px;
+}
+
+.ui.basic.segment .header .logo-nav-wrapper {
+  justify-content: space-between;
+}
+
+.logo .ui.image {
+  height: 50px;
+}
+
+.navigation .ui.secondary.pointing.menu {
+  min-height: initial;
+  margin: 0;
+
+  a.item {
+    padding: 5px 10px !important;
+    margin: 0;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+
+    &:hover {
+      background: #212020;
+      color: #00a1df;
+    }
+  }
+}
+
+.siteroot .ui.basic.segment.header-wrapper {
+  margin-bottom: 0;
+}
+
+.ui.secondary.segment.breadcrumbs {
+  display: none;
+}
+
+
+@import (less) '~slick-carousel/slick/slick.css';
+@import (less) '~slick-carousel/slick/slick-theme.css';
+
+
+//Block css -----------------------------------------------------------------------------------------------
+.ui.basic.segment.content-area {
+  padding: 0;
+  margin: 0;
+}
+
+.tile.view.mainslider {
+  .slide {
+    display: flex;
+    height: 339px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    h1 {
+      margin: 0 0 20px 0;
+      font-size: 32px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    h3 {
+      margin: 0 0 20px 0;
+      font-size: 32px;
+      font-weight: 300;
+    }
+
+    a {
+      padding: 10px 20px;
+      background-color: #00bef1;
+      border-radius: 20px;
+      color: #fff;
+    }
+  }
+
+  .slick-arrow {
+    width: initial;
+    height: initial;
+  }
+
+  .slick-prev {
+    z-index: 10;
+    left: -18px;
+    background: transparent !important;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .slick-next {
+    right: -32px;
+    background: transparent !important;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+body.has-toolbar .tile.view.mainslider .slick-prev {
+  left: calc(-18px + 80px);
+}
+
+body.has-toolbar .tile.view.mainslider .slick-next {
+  right: calc(80px - 38px);
+}
+
+.slick-slider {
+  // This fixes homepage slider problem in ff (prevents from totally disappearing)
+  width: 100vw;
+
+  img {
+    width: 100%;
+  }
+}
+
+// This is the width hack
+body:not(.has-toolbar):not(.has-sidebar):not(.has-toolbar-collapsed):not(.has-sidebar-collapsed)
+.ui.wrapper
+> .full-width,
+body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed)
+.ui.wrapper
+> .full-width,
+body.has-toolbar-collapsed:not(.has-sidebar):not(.has-sidebar-collapsed)
+.ui.wrapper
+> .full-width {
+  position: relative;
+  right: 50%;
+  left: 50%;
+  width: 100vw !important;
+  max-width: initial !important;
+  margin-right: -50vw !important;
+  margin-left: -50vw !important;
+}
+
+
+
+
+
+// View css
+.contenttype-success_story {
+  .ui.basic.segment.header-wrapper {
+    margin: 0;
+  }
+
+h1.documentFirstHeading {
+  margin-bottom: 0;
+  border: none;
+  color: #00608c;
+  font-size: 4.5em;
+  line-height: 1.25em;
+
+  &::before {
+    display: none;
+  }
+}
+
+.lead.image {
+    width: 100%;
+  }
+}
