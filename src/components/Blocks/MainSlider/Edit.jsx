@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'semantic-ui-react';
 
 const Edit = props => {
     return (
@@ -9,7 +10,7 @@ const Edit = props => {
           {/* do not include behavior between input */}
         </div>
         <div>
-          <button type="button">Click Me!</button>
+          <Button type="button">Click Me!</Button>
         </div>
       </div>
     );
