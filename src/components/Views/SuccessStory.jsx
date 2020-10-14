@@ -11,13 +11,12 @@ const SuccessStoryView = props => {
   const { content } = props;
   return (
     <>
-      {/* <img
+      <img
         className="lead image"
         alt="sucess story"
         src="https://assets3.thrillist.com/v1/image/2820706/1584x1056/crop;jpeg_quality=60;progressive.jpg"
       />
-      <DefaultView {...props} /> */}
-
+      <DefaultView {...props} />
       <Container className="view-wrapper">
         <Helmet title={content.title} />
         {content.title && (
