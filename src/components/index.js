@@ -8,3 +8,9 @@
  *   Footer,
  * };
  */
+
+
+
+import RatingWidget from './RatingWidget/RatingWidget';
+
+export { RatingWidget };
