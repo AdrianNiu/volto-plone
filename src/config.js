@@ -15,6 +15,10 @@
 import SuccessStory from '@package/components/Views/SuccessStory';
 import HighlightsViewBlock from '@package/components/Blocks/Highlights/View';
 import HighlightsEditBlock from '@package/components/Blocks/Highlights/Edit';
+import { RatingWidget } from './components';
+
+
+
 
 import {
   settings as defaultSettings,
@@ -84,8 +88,16 @@ export const views = {
   },
 };
 
+// export const widgets = {
+//   ...defaultWidgets,
+// };
+
 export const widgets = {
   ...defaultWidgets,
+  id: {
+    ...defaultWidgets.id,
+    rating: RatingWidget,
+  },
 };
 
 export const blocks = {
@@ -93,3 +105,12 @@ export const blocks = {
          requiredBlocks: [],
          blocksConfig: { ...defaultBlocks.blocksConfig, ...customBlocks },
        };
+
+
+// export const widgets = {
+//   ...defaultWidgets,
+//   id: {
+//     ...defaultWidgets.id,
+//     rating: RatingWidget,
+//   },
+// };       
