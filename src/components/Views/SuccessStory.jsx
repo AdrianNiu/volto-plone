@@ -1,6 +1,7 @@
 import React from 'react';
 import { DefaultView } from '@plone/volto/components';
 import { flattenToAppURL } from '@plone/volto/helpers';
+// make sure to delete all directory path before @
 
 
 import PropTypes from 'prop-types';
