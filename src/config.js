@@ -17,7 +17,8 @@ import HighlightsViewBlock from '@package/components/Blocks/Highlights/View';
 import HighlightsEditBlock from '@package/components/Blocks/Highlights/Edit';
 import { RatingWidget } from './components';
 
-
+import TeaserViewBlock from '@package/components/Blocks/Teaser/View';
+import TeaserEditBlock from '@package/components/Blocks/Teaser/Edit';
 
 
 import {
@@ -69,6 +70,20 @@ const customBlocks = {
       view: [],
     },
   },
+  teaser: {
+    id: 'teaser',
+    title: 'Teaser',
+    icon: sliderSVG,
+    group: 'common',
+    view: TeaserViewBlock,
+    edit: TeaserEditBlock,
+    restricted: false,
+    mostUsed: true,
+    security: {
+      addPermission: [],
+      view: [],
+    },
+  },
 };
 
 // export const tiles = {
@@ -104,6 +119,7 @@ export const blocks = {
          ...defaultBlocks,
          requiredBlocks: [],
          blocksConfig: { ...defaultBlocks.blocksConfig, ...customBlocks },
+         
        };
 
 
