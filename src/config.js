@@ -15,10 +15,11 @@
 import SuccessStory from '@package/components/Views/SuccessStory';
 import HighlightsViewBlock from '@package/components/Blocks/Highlights/View';
 import HighlightsEditBlock from '@package/components/Blocks/Highlights/Edit';
-import { RatingWidget } from './components';
+
 
 import TeaserViewBlock from '@package/components/Blocks/Teaser/View';
 import TeaserEditBlock from '@package/components/Blocks/Teaser/Edit';
+import { FaqView, RatingWidget } from '@package/components';
 
 
 import {
@@ -100,6 +101,7 @@ export const views = {
   contentTypesViews: {
     ...defaultViews.contentTypesViews,
     success_story: SuccessStory,
+    faq_view: FaqView,
   },
 };
 

@@ -8,9 +8,9 @@
  *   Footer,
  * };
  */
-
-
-
+// import AlbumView from './AlbumView/AlbumView';
+import FaqView from './FaqView/FaqView';
+// import FullView from './FullView/FullView';
 import RatingWidget from './RatingWidget/RatingWidget';
 
-export { RatingWidget };
+export { FaqView, RatingWidget };

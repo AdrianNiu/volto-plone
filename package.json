@@ -83,6 +83,7 @@
   },
   "dependencies": {
     "@plone/volto": "4.0.0-alpha.35",
+    "react-helmet": "6.1.0",
     "react-slick": "0.27.11",
     "slick-carousel": "1.8.1"
   },
