@@ -54,3 +54,5 @@ export default function faq(state = initialState, action = {}) {
       return state;
   }
 }
+
+// achieve through mapping item from reducer
