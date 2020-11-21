@@ -7,3 +7,4 @@
 
 
  export const GET_FAQ = 'GET_FAQ';
+ // const as function action
