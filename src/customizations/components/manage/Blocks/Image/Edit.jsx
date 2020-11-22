@@ -3,6 +3,8 @@
  * @module components/manage/Blocks/Image/Edit
  */
 
+ // make sure Edit file is following the omelete directory path 
+
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
