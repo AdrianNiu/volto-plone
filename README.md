@@ -59,3 +59,6 @@ $ yarn start
 
 You can find the (beta) documentation in [http://docs.voltocms.com](http://docs.voltocms.com)
 # volto-plone
+
+## Trouble Shooting
+If the error presents when running plone backend, try to update docker and python version first. 
