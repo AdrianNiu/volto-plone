@@ -20,6 +20,8 @@ import HighlightsEditBlock from '@package/components/Blocks/Highlights/Edit';
 import TeaserViewBlock from '@package/components/Blocks/Teaser/View';
 import TeaserEditBlock from '@package/components/Blocks/Teaser/Edit';
 import { FaqView, RatingWidget } from '@package/components';
+import { AlbumView, FullView } from './components';
+
 
 
 import {
@@ -102,8 +104,12 @@ export const views = {
     ...defaultViews.contentTypesViews,
     success_story: SuccessStory,
     faq_view: FaqView,
+    full_view: FullView,
+    album_view: AlbumView,
   },
 };
+
+
 
 // export const widgets = {
 //   ...defaultWidgets,
@@ -113,7 +119,7 @@ export const widgets = {
   ...defaultWidgets,
   id: {
     ...defaultWidgets.id,
-    rating: RatingWidget,
+    // rating: RatingWidget,
   },
 };
 

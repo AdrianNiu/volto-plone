@@ -160,7 +160,7 @@ RatingWidget.propTypes = {
     onChange: PropTypes.func,
     onEdit: PropTypes.func,
     onDelete: PropTypes.func,
-    // intl: intlShape.isRequired,
+    intl: intlShape.isRequired,
 };
 
 /**
