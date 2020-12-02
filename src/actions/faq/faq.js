@@ -19,3 +19,7 @@ export function getFaq() {
     },
   };
 }
+
+// addons: "volto-slate": "^1.0.0"
+// dependencies: "@eeacms/volto-block-style": "^1.0.0"
+// 
