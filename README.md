@@ -61,4 +61,4 @@ You can find the (beta) documentation in [http://docs.voltocms.com](http://docs.
 # volto-plone
 
 ## Trouble Shooting
-If the error presents when running plone backend, try to update docker and python version first. And also check docker version and image capacities Omelete folder is optional for reference and should make sure arc directory path match omelete directory. Dexetory mode and content type relationship can be modified in the plone backend. For specific action type content, should create rule in zope. Pyramid as web framework for Python 3.
+If the error presents when running plone backend, try to update docker and python version first. And also check docker version and image capacities Omelete folder is optional for reference and should make sure arc directory path match omelete directory. Dexetory mode and content type relationship can be modified in the plone backend. For specific action type content, should create rule in zope. Pyramid as web framework for Python 3. Zope for base web backend framework development. 
