@@ -62,4 +62,4 @@ You can find the (beta) documentation in [http://docs.voltocms.com](http://docs.
 
 ## Trouble Shooting
 If the error presents when running plone backend, try to update docker and python version first. And also check docker version and image capacities Omelete folder is optional for reference and should make sure arc directory path match omelete directory. Dexetory mode and content type relationship can be modified in the plone backend. For specific action type content, should create rule in zope. Pyramid as web framework for Python 3. Similar manipulation of redux in volto. Splitting bundle to optimize burden of web service with lazy load. Make sure install all the relevant dependency for an add-on.
-Semantic UI might be plug in for future development and easily import or managed, which bootstrap might be a substitute. 
+Semantic UI might be plug in for future development and easily import or managed, which bootstrap might be a substitute. Theming of the Plone content can be customized from scratch and Plone backend interface is customizable as well. 
