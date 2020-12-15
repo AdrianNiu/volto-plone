@@ -65,4 +65,4 @@ If the error presents when running plone backend, try to update docker and pytho
 Semantic UI might be plug in for future development and easily import or managed, which bootstrap might be a substitute. Theming of the Plone content can be customized from scratch and Plone backend interface is customizable as well. 
 
 ## Plone 2020
-NLP in javascript has privacy and parallel computation advantage. One argument might be the true advantage of JS's capability in ML. Add on should be specified in the package.json file. Plone and Zope can be specified for new theming. For local server start, use node server.js.
+NLP in javascript has privacy and parallel computation advantage. One argument might be the true advantage of JS's capability in ML. Add on should be specified in the package.json file. Plone and Zope can be specified for new theming. For local server start, use node server.js. AWS deployment for Plone backend.
