@@ -70,3 +70,5 @@ NLP in javascript has privacy and parallel computation advantage. One argument m
 Guillotine is a WSGI middleware which allows for HEAD requests to be properly handled by your WSGI pipeline. Has strong potential for Mchine Learning in JavaScript. Built in for messaging platform for veteran suicide crisis. Or chat it feature for auto suicide ideation detection and auto referral for emergency line. 
 
 The theme folder contains the Pastanaga theme which is used for the styling. The theme.config can be used to set the theme settings.
+
+What has Rails got that Plone doesn't, why does it have so much hype?
