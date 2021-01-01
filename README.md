@@ -72,3 +72,8 @@ Guillotine is a WSGI middleware which allows for HEAD requests to be properly ha
 The theme folder contains the Pastanaga theme which is used for the styling. The theme.config can be used to set the theme settings.
 
 What has Rails got that Plone doesn't, why does it have so much hype?
+
+npm install -g yarn
+$ npm install -g @plone/create-volto-app
+$ create-volto-app myvoltoproject
+$ cd myvoltoproject
