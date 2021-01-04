@@ -77,3 +77,6 @@ npm install -g yarn
 $ npm install -g @plone/create-volto-app
 $ create-volto-app myvoltoproject
 $ cd myvoltoproject
+
+localhost:8080 => 
+docker run -it --rm --name=plone -p 8080:8080 -e SITE=Plone -e ADDONS="kitconcept.volto" -e ZCML="kitconcept.volto.cors" -e PROFILES="kitconcept.volto:default-homepage" plone
